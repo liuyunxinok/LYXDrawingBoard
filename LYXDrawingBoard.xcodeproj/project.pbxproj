@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85AF96D11F305AA300A97027 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AF96D01F305AA300A97027 /* AppDelegate.swift */; };
+		85AF96D31F305AA300A97027 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AF96D21F305AA300A97027 /* ViewController.swift */; };
+		85AF96D61F305AA300A97027 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85AF96D41F305AA300A97027 /* Main.storyboard */; };
+		85AF96D81F305AA300A97027 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85AF96D71F305AA300A97027 /* Assets.xcassets */; };
+		85AF96DB1F305AA300A97027 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85AF96D91F305AA300A97027 /* LaunchScreen.storyboard */; };
+		85AF96E61F305AA400A97027 /* LYXDrawingBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AF96E51F305AA400A97027 /* LYXDrawingBoardTests.swift */; };
+		85AF96F11F305AA400A97027 /* LYXDrawingBoardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AF96F01F305AA400A97027 /* LYXDrawingBoardUITests.swift */; };
+		85AF96FF1F30625A00A97027 /* LYXDrawingBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AF96FE1F30625A00A97027 /* LYXDrawingBoardView.swift */; };
+		85AF97011F30794900A97027 /* LYXBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AF97001F30794900A97027 /* LYXBezierPath.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85AF96E21F305AA400A97027 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85AF96C51F305AA300A97027 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85AF96CC1F305AA300A97027;
+			remoteInfo = LYXDrawingBoard;
+		};
+		85AF96ED1F305AA400A97027 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85AF96C51F305AA300A97027 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85AF96CC1F305AA300A97027;
+			remoteInfo = LYXDrawingBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		85AF96CD1F305AA300A97027 /* LYXDrawingBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYXDrawingBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85AF96D01F305AA300A97027 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		85AF96D21F305AA300A97027 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		85AF96D51F305AA300A97027 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		85AF96D71F305AA300A97027 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85AF96DA1F305AA300A97027 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85AF96DC1F305AA300A97027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85AF96E11F305AA400A97027 /* LYXDrawingBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYXDrawingBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85AF96E51F305AA400A97027 /* LYXDrawingBoardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYXDrawingBoardTests.swift; sourceTree = "<group>"; };
+		85AF96E71F305AA400A97027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85AF96EC1F305AA400A97027 /* LYXDrawingBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYXDrawingBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85AF96F01F305AA400A97027 /* LYXDrawingBoardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LYXDrawingBoardUITests.swift; sourceTree = "<group>"; };
+		85AF96F21F305AA400A97027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85AF96FE1F30625A00A97027 /* LYXDrawingBoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYXDrawingBoardView.swift; sourceTree = "<group>"; };
+		85AF97001F30794900A97027 /* LYXBezierPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LYXBezierPath.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85AF96CA1F305AA300A97027 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85AF96DE1F305AA400A97027 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85AF96E91F305AA400A97027 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85AF96C41F305AA300A97027 = {
+			isa = PBXGroup;
+			children = (
+				85AF96CF1F305AA300A97027 /* LYXDrawingBoard */,
+				85AF96E41F305AA400A97027 /* LYXDrawingBoardTests */,
+				85AF96EF1F305AA400A97027 /* LYXDrawingBoardUITests */,
+				85AF96CE1F305AA300A97027 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85AF96CE1F305AA300A97027 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85AF96CD1F305AA300A97027 /* LYXDrawingBoard.app */,
+				85AF96E11F305AA400A97027 /* LYXDrawingBoardTests.xctest */,
+				85AF96EC1F305AA400A97027 /* LYXDrawingBoardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85AF96CF1F305AA300A97027 /* LYXDrawingBoard */ = {
+			isa = PBXGroup;
+			children = (
+				85AF96D01F305AA300A97027 /* AppDelegate.swift */,
+				85AF96D21F305AA300A97027 /* ViewController.swift */,
+				85AF96FE1F30625A00A97027 /* LYXDrawingBoardView.swift */,
+				85AF97001F30794900A97027 /* LYXBezierPath.swift */,
+				85AF96D41F305AA300A97027 /* Main.storyboard */,
+				85AF96D71F305AA300A97027 /* Assets.xcassets */,
+				85AF96D91F305AA300A97027 /* LaunchScreen.storyboard */,
+				85AF96DC1F305AA300A97027 /* Info.plist */,
+			);
+			path = LYXDrawingBoard;
+			sourceTree = "<group>";
+		};
+		85AF96E41F305AA400A97027 /* LYXDrawingBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				85AF96E51F305AA400A97027 /* LYXDrawingBoardTests.swift */,
+				85AF96E71F305AA400A97027 /* Info.plist */,
+			);
+			path = LYXDrawingBoardTests;
+			sourceTree = "<group>";
+		};
+		85AF96EF1F305AA400A97027 /* LYXDrawingBoardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				85AF96F01F305AA400A97027 /* LYXDrawingBoardUITests.swift */,
+				85AF96F21F305AA400A97027 /* Info.plist */,
+			);
+			path = LYXDrawingBoardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85AF96CC1F305AA300A97027 /* LYXDrawingBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85AF96F51F305AA400A97027 /* Build configuration list for PBXNativeTarget "LYXDrawingBoard" */;
+			buildPhases = (
+				85AF96C91F305AA300A97027 /* Sources */,
+				85AF96CA1F305AA300A97027 /* Frameworks */,
+				85AF96CB1F305AA300A97027 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYXDrawingBoard;
+			productName = LYXDrawingBoard;
+			productReference = 85AF96CD1F305AA300A97027 /* LYXDrawingBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85AF96E01F305AA400A97027 /* LYXDrawingBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85AF96F81F305AA400A97027 /* Build configuration list for PBXNativeTarget "LYXDrawingBoardTests" */;
+			buildPhases = (
+				85AF96DD1F305AA400A97027 /* Sources */,
+				85AF96DE1F305AA400A97027 /* Frameworks */,
+				85AF96DF1F305AA400A97027 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85AF96E31F305AA400A97027 /* PBXTargetDependency */,
+			);
+			name = LYXDrawingBoardTests;
+			productName = LYXDrawingBoardTests;
+			productReference = 85AF96E11F305AA400A97027 /* LYXDrawingBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		85AF96EB1F305AA400A97027 /* LYXDrawingBoardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85AF96FB1F305AA400A97027 /* Build configuration list for PBXNativeTarget "LYXDrawingBoardUITests" */;
+			buildPhases = (
+				85AF96E81F305AA400A97027 /* Sources */,
+				85AF96E91F305AA400A97027 /* Frameworks */,
+				85AF96EA1F305AA400A97027 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85AF96EE1F305AA400A97027 /* PBXTargetDependency */,
+			);
+			name = LYXDrawingBoardUITests;
+			productName = LYXDrawingBoardUITests;
+			productReference = 85AF96EC1F305AA400A97027 /* LYXDrawingBoardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85AF96C51F305AA300A97027 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = liuyunxin;
+				TargetAttributes = {
+					85AF96CC1F305AA300A97027 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = D47CZT3KBD;
+						ProvisioningStyle = Automatic;
+					};
+					85AF96E01F305AA400A97027 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 85AF96CC1F305AA300A97027;
+					};
+					85AF96EB1F305AA400A97027 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 85AF96CC1F305AA300A97027;
+					};
+				};
+			};
+			buildConfigurationList = 85AF96C81F305AA300A97027 /* Build configuration list for PBXProject "LYXDrawingBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85AF96C41F305AA300A97027;
+			productRefGroup = 85AF96CE1F305AA300A97027 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85AF96CC1F305AA300A97027 /* LYXDrawingBoard */,
+				85AF96E01F305AA400A97027 /* LYXDrawingBoardTests */,
+				85AF96EB1F305AA400A97027 /* LYXDrawingBoardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85AF96CB1F305AA300A97027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85AF96DB1F305AA300A97027 /* LaunchScreen.storyboard in Resources */,
+				85AF96D81F305AA300A97027 /* Assets.xcassets in Resources */,
+				85AF96D61F305AA300A97027 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85AF96DF1F305AA400A97027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85AF96EA1F305AA400A97027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85AF96C91F305AA300A97027 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85AF96D31F305AA300A97027 /* ViewController.swift in Sources */,
+				85AF97011F30794900A97027 /* LYXBezierPath.swift in Sources */,
+				85AF96D11F305AA300A97027 /* AppDelegate.swift in Sources */,
+				85AF96FF1F30625A00A97027 /* LYXDrawingBoardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85AF96DD1F305AA400A97027 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85AF96E61F305AA400A97027 /* LYXDrawingBoardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85AF96E81F305AA400A97027 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85AF96F11F305AA400A97027 /* LYXDrawingBoardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85AF96E31F305AA400A97027 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85AF96CC1F305AA300A97027 /* LYXDrawingBoard */;
+			targetProxy = 85AF96E21F305AA400A97027 /* PBXContainerItemProxy */;
+		};
+		85AF96EE1F305AA400A97027 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85AF96CC1F305AA300A97027 /* LYXDrawingBoard */;
+			targetProxy = 85AF96ED1F305AA400A97027 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		85AF96D41F305AA300A97027 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85AF96D51F305AA300A97027 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		85AF96D91F305AA300A97027 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85AF96DA1F305AA300A97027 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85AF96F31F305AA400A97027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85AF96F41F305AA400A97027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85AF96F61F305AA400A97027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D47CZT3KBD;
+				INFOPLIST_FILE = LYXDrawingBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TCZY.LYXDrawingBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		85AF96F71F305AA400A97027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D47CZT3KBD;
+				INFOPLIST_FILE = LYXDrawingBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TCZY.LYXDrawingBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		85AF96F91F305AA400A97027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LYXDrawingBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TCZY.LYXDrawingBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYXDrawingBoard.app/LYXDrawingBoard";
+			};
+			name = Debug;
+		};
+		85AF96FA1F305AA400A97027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LYXDrawingBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TCZY.LYXDrawingBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYXDrawingBoard.app/LYXDrawingBoard";
+			};
+			name = Release;
+		};
+		85AF96FC1F305AA400A97027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LYXDrawingBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TCZY.LYXDrawingBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LYXDrawingBoard;
+			};
+			name = Debug;
+		};
+		85AF96FD1F305AA400A97027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = LYXDrawingBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TCZY.LYXDrawingBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = LYXDrawingBoard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85AF96C81F305AA300A97027 /* Build configuration list for PBXProject "LYXDrawingBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85AF96F31F305AA400A97027 /* Debug */,
+				85AF96F41F305AA400A97027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85AF96F51F305AA400A97027 /* Build configuration list for PBXNativeTarget "LYXDrawingBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85AF96F61F305AA400A97027 /* Debug */,
+				85AF96F71F305AA400A97027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		85AF96F81F305AA400A97027 /* Build configuration list for PBXNativeTarget "LYXDrawingBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85AF96F91F305AA400A97027 /* Debug */,
+				85AF96FA1F305AA400A97027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		85AF96FB1F305AA400A97027 /* Build configuration list for PBXNativeTarget "LYXDrawingBoardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85AF96FC1F305AA400A97027 /* Debug */,
+				85AF96FD1F305AA400A97027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85AF96C51F305AA300A97027 /* Project object */;
+}
